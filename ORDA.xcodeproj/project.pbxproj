@@ -13,6 +13,7 @@
 		3DE0C13327B3F22700E36608 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3DE0C13127B3F22700E36608 /* Main.storyboard */; };
 		3DE0C13527B3F22900E36608 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3DE0C13427B3F22900E36608 /* Assets.xcassets */; };
 		3DE0C13827B3F22900E36608 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3DE0C13627B3F22900E36608 /* LaunchScreen.storyboard */; };
+		3DE0C14027B3F9FB00E36608 /* WebView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DE0C13F27B3F9FB00E36608 /* WebView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		3DE0C13427B3F22900E36608 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		3DE0C13727B3F22900E36608 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		3DE0C13927B3F22900E36608 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3DE0C13F27B3F9FB00E36608 /* WebView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +65,7 @@
 				3DE0C13427B3F22900E36608 /* Assets.xcassets */,
 				3DE0C13627B3F22900E36608 /* LaunchScreen.storyboard */,
 				3DE0C13927B3F22900E36608 /* Info.plist */,
+				3DE0C13F27B3F9FB00E36608 /* WebView.swift */,
 			);
 			path = ORDA;
 			sourceTree = "<group>";
@@ -139,6 +142,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				3DE0C13027B3F22700E36608 /* ViewController.swift in Sources */,
+				3DE0C14027B3F9FB00E36608 /* WebView.swift in Sources */,
 				3DE0C12C27B3F22700E36608 /* AppDelegate.swift in Sources */,
 				3DE0C12E27B3F22700E36608 /* SceneDelegate.swift in Sources */,
 			);
@@ -297,7 +301,7 @@
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -326,7 +330,7 @@
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
